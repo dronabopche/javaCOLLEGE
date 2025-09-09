@@ -27,8 +27,7 @@ class FactorialRecursion extends Frame implements ActionListener, WindowListener
         addWindowListener(this);
     }
 
-    // Recursive factorial function
-    int fact(int n) {
+    int fact(int n) { //making function for recursion 
         if(n == 0 || n == 1) return 1;
         return n * fact(n-1);
     }
